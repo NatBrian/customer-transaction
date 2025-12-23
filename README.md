@@ -3,7 +3,7 @@
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-orange)
 
-## Abstract
+## Overview
 This project implements and evaluates sequential recommendation architectures to predict user purchasing behavior in a cross-domain e-commerce environment. By transitioning from recurrent baselines (GRU4Rec) to self-attentive mechanisms (SASRec), the system effectively captures long-term dependencies in user interaction sequences. The final model achieves a **Hit Rate@10 of 31.77%** and **NDCG@10 of 17.02%**.
 
 ## Dataset: T-ECD
@@ -39,7 +39,7 @@ The project follows a comparative approach:
     *   **Positional Embeddings:** Learnable vectors to encode the order of interactions.
     *   **Causal Masking:** Ensures predictions depend only on past events, preventing future leakage.
 
-![SASRec Demo](assets/sasrecdemo.mp4)
+![SASRec Demo](assets/sasrecdemo.gif)
 
 ## Repository Structure
 
