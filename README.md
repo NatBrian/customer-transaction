@@ -6,6 +6,8 @@
 ## Overview
 This project implements and evaluates sequential recommendation architectures to predict user purchasing behavior in a cross-domain e-commerce environment. By transitioning from recurrent baselines (GRU4Rec) to self-attentive mechanisms (SASRec), the system effectively captures long-term dependencies in user interaction sequences. The final model achieves a **Hit Rate@10 of 31.77%** and **NDCG@10 of 17.02%**.
 
+*For further analysis, see [Report](assets/Sequential_Recommendation.pdf)*
+
 ## Dataset: T-ECD
 The [**T-Tech E-commerce Cross-Domain (T-ECD)**](https://huggingface.co/datasets/t-tech/T-ECD) dataset serves as the foundation for this study. It captures granular user interactions across two distinct retail environments:
 *   **Scale:** 9.2 million interaction events across 286,000 unique users.
